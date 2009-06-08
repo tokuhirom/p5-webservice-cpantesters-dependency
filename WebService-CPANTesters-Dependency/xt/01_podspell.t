@@ -8,3 +8,7 @@ __DATA__
 typomaster
 naritoshi.hayashi@gmail.com
 WebService::CPANTesters::Dependency
+WebAPI
+cpantesters
+deps
+org
