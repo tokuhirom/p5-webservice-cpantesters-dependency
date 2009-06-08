@@ -10,11 +10,14 @@ requires 'Perl::Version';
 requires 'URI::Template::Restrict';
 requires 'XML::LibXML';
 requires 'XML::LibXML::XPathContext';
+requires 'List::Rubyish';
 
 tests 't/*.t';
 author_tests 'xt';
 
 build_requires 'Test::More';
+test_requires 'Test::Mock::LWP';
+test_requires 'Test::MockObject';
 use_test_base;
 auto_include;
 WriteAll;
